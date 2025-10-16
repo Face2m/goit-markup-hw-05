@@ -38,6 +38,7 @@ ul, ol {
 }
 
 .head-cont {
+    align-items: center;
     display: flex;
     justify-content: space-between;
 }
@@ -83,6 +84,7 @@ nav > ul {
 .nav-link {
     color: #404bbf;
     font-weight: 500;
+    display: block;
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding: 24px 0;
