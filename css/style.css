@@ -594,7 +594,7 @@ nav > ul {
     position: absolute;
 }
 
-.input-user:focus .form-input-icons {
+.input-user:focus + .form-input-icons {
     fill: #4D5AE5;
 }
 
@@ -645,7 +645,7 @@ nav > ul {
     width: 16px;
 }
 
-.input-checkbox:checked .privacy-policy {
+.input-checkbox:checked +.iput-checkbox-privacy .privacy-policy {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
