@@ -645,7 +645,7 @@ nav > ul {
     width: 16px;
 }
 
-.input-checkbox:checked +.iput-checkbox-privacy .privacy-policy {
+.input-checkbox:checked +.input-checkbox-privacy .privacy-policy {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
