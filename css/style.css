@@ -93,7 +93,11 @@ nav > ul {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-link::after {
+.nav-link.current {
+    color: #404bbf;  
+}
+
+.nav-link.current::after {
     background-color: #404bbf;
     border-radius: 2px;
     bottom: -1px;
@@ -140,6 +144,7 @@ nav > ul {
     background-position: center;
     background-size: cover;
     max-width: 1440px;
+    margin: 0 auto;
     padding: 188px 0;
 }
 
@@ -249,13 +254,13 @@ nav > ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 6px;
 }
 
 .icons-list {
     gap: 24px;
     display: flex;
     justify-content: center;
-    margin-top: 20px;
 }
 
 .icons-list-item {
@@ -394,6 +399,7 @@ nav > ul {
 .cont-class-foo {
     align-items: baseline;
     display: flex;
+    justify-content: space-between;
 }
 
 .social-p {
@@ -486,7 +492,13 @@ nav > ul {
 }
 
 .input-icon {
+    fill: #ffffff;
     margin-left: 16px;
+}
+
+.input-button:hover,
+.input-button:focus {
+    background-color: rgb(64, 75, 191);
 }
 
 .modal-cont {
@@ -502,6 +514,15 @@ nav > ul {
 
 .modal-cont.is-open {
     display: block;
+}
+
+.title-modal-cont {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.12;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .visible-modal-cont {
