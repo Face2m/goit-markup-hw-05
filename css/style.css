@@ -392,10 +392,6 @@ nav > ul {
     max-width: 264px;
 }
 
-.footer-cont {
-    margin-right: 120px;
-}
-
 .cont-class-foo {
     align-items: baseline;
     display: flex;
@@ -697,4 +693,9 @@ nav > ul {
     margin: 0 auto;
     min-width: 169px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-button-textarea:hover,
+.modal-button-textarea:focus {
+    background-color: #404bbf;
 }
