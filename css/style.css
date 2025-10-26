@@ -520,6 +520,7 @@ nav > ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 16px;
 }
 
 .visible-modal-cont {
@@ -566,17 +567,7 @@ nav > ul {
 .modal-button:hover .modal-cont-icon,
 .modal-button:focus .modal-cont-icon {
     fill: #ffffff;
-}
-
-.modal-p {
-    color: #2E2F42;
-    font-size: 16px;
-    font-weight: 500;
-    margin-bottom: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: center;
-}
+}g
 
 .modal-form-cont {
     margin-bottom: 8px;
